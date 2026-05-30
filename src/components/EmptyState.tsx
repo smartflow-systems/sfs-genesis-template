@@ -3,9 +3,9 @@
  * Show when there's no data to display
  */
 
-import { LucideIcon, FileQuestion } from "lucide-react";
+import { FileQuestion, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 interface EmptyStateProps {
   icon?: LucideIcon;

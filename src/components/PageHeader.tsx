@@ -3,7 +3,7 @@
  * Consistent page headers across all apps
  */
 
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Badge } from "@/components/ui/badge";
 

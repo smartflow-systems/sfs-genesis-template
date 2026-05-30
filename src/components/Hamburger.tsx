@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface HamburgerProps {
   isOpen: boolean
   onClick: () => void

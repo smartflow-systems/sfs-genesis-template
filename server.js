@@ -44,7 +44,7 @@ app.use(express.static(join(__dirname, "dist")));
 app.get("/health", (_req, res) => res.json({ ok: true }));
 
 // SPA fallback
-app.get("*", (_req, res) => {
+app.get(/.*/, (_req, res) => {
   res.sendFile(join(__dirname, "dist", "index.html"));
 });
 
